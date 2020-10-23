@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 //Connect to Mongoose and set connection variable
-mongoose.connect('mongodb://localhost:27017/mysite',{useNewUrlParser:true,useUnifiedTopology:true})
+mongoose.connect('mongodb+srv://dbAdmin:108400@cluster1.tzijx.gcp.mongodb.net/libDB?retryWrites=true&w=majority',{useNewUrlParser:true,useUnifiedTopology:true})
 var db = mongoose.connection;
 
 
