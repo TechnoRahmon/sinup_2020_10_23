@@ -26,3 +26,11 @@ In this project, we will create a RESTful CRUD (Create, Retrieve, Update, Delet
 
 -edit old user
 
+# To Run The Project 
+after cloning the project, go to ``` cd /sinup ``` folder then run in the terminal :
+
+``` npm install ``` 
+
+then :
+``` npm start ``` 
+you gonna see the project running at http://localhost:3000
